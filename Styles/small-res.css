@@ -1,14 +1,39 @@
 @media screen and (max-width: 576px){
 
+  /* Navbar  */
   header h4 {
-display: none;
+    display: none;
+  }
+  .navbar {
+    justify-content: center;
   }
 
-  .navbar {
- 
-    justify-content: center;
-    
+  /* Banner */
+
+  .banner-container {
+    grid-template-columns: 1fr;
+    margin: 0 0.8rem;
   }
+
+  .banner-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }

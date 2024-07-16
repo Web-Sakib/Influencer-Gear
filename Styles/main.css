@@ -1,0 +1,42 @@
+
+#card-sec {
+  /* border: 2px solid red; */
+ max-width: 72rem;
+ margin: 10rem auto;
+ flex-direction: column;
+
+}
+.title {
+  /* border: 2px solid red; */
+  margin: 2rem auto;
+  font-size: 1.8rem;
+
+}
+
+.card-container {
+  /* border: 2px solid red; */
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+
+ 
+  
+}
+
+.card {
+  /* border: 2px solid blue; */
+  padding: 0.6rem;
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+  border-radius: 0.5rem;
+}
+
+.card-image {
+  /* border: 2px solid red; */
+}
+
+main img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+

@@ -53,13 +53,11 @@ header h4 {
 
 /* Banner Style  */
 
-.banner-container .banner-info img {
+.banner-info img {
   width: 5rem;
 }
 
 .banner-container {
-
-  /* background-color: aqua; */
   max-width: 72rem;
   margin: 0 auto;
   grid-template-columns: 1.5fr 1fr;
